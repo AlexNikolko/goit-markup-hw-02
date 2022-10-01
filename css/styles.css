@@ -29,6 +29,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
     color: #000000;
+    text-decoration: none
 }
 
 .logo-web {
@@ -45,6 +46,7 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none
 }
 
 .site-nav .link:hover, 
@@ -65,6 +67,7 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none
 }
 
 /* Hero */
@@ -154,6 +157,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
     color: #FFFFFF;
+    text-decoration: none
 }
 
 .contact-ft {
@@ -162,23 +166,22 @@ body {
 
 .contact-ft .contact-adr-link {
     color: var(--text-wight);
+    text-decoration: none
 }
 
 .contact-ft .contact-link {
     color: var(--contact-footer-color);
+    text-decoration: none
 }
 
 .contact-ft .contact-link:hover,
-.contact-ft .contact-link:focus {
+.contact-ft .contact-link:focus,
+.contact-ft .contact-adr-link:hover,
+.contact-ft .contact-adr-link:focus {
     color: var(--accent-color);
 }
 
 /* Portfolio */
-
-.work-nav,
-.work {
-
-}
 
 .work-name {
     color: var(--title-text-color);
